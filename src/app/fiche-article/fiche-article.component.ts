@@ -21,7 +21,7 @@ export class FicheArticleComponent {
     this.publication_date= new Date();
     this.author= 'Bruce Wayne';
     this.resume= 'Amazing book with an interessting story';
-    this.image_url= "/assets/imagesFolder/Livre_barack_obama_une_terre_promise.jpeg";
+    this.image_url= "src/assets/imagesFolder/Livre_barack_obama_une_terre_promise.jpeg";
 
   }
 

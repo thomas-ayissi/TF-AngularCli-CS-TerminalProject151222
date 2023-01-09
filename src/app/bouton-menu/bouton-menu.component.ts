@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./bouton-menu.component.scss']
 })
 export class BoutonMenuComponent {
+  category!: string;
+  name!: string;
+  class!: string;
+  color!:string;
 
+  ngOnInit(){
+    this.category= 'Header';
+    this.name= 'Home';
+    this.class= 'Bruce Wayne';
+    this.color= 'blue';
+
+  }
 }
