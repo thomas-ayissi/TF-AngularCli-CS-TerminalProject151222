@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-BoutonMenu',
-  templateUrl: './BoutonMenu.component.html',
-  styleUrls: ['./BoutonMenu.component.scss']
+  selector: 'app-MenuItem',
+  templateUrl: './MenuItem.component.html',
+  styleUrls: ['./MenuItem.component.scss']
 })
-export class BoutonMenuComponent {
+export class MenuItemComponent {
   category!: string;
   name!: string;
   class!: string;

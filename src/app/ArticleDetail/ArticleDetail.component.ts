@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ficheArticle',
-  templateUrl: './ficheArticle.component.html',
-  styleUrls: ['./ficheArticle.component.scss']
+  selector: 'app-ArticleDetail',
+  templateUrl: './ArticleDetail.component.html',
+  styleUrls: ['./ArticleDetail.component.scss']
 })
-export class FicheArticleComponent {
+export class ArticleDetailComponent {
    category!: string;
    title!: string;
    isbn_number!: string;

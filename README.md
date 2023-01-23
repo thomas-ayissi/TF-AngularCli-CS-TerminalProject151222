@@ -1,6 +1,6 @@
 # TFAngularStoreManagementProject0414122
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+This project was generated with [Angular CLI][1] version 15.0.4.
 
 ## Development server
 
@@ -16,7 +16,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [Karma][2].
 
 ## Running end-to-end tests
 
@@ -24,4 +24,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference][3] page.
+
+## Component Schema
+[Component Resume - V23 jan 2023]()(./tf-appGestionLibrairie-SchemaRecapDesComponents-v23Jan2023.png)
+
+[1]:	https://github.com/angular/angular-cli
+[2]:	https://karma-runner.github.io
+[3]:	https://angular.io/cli
