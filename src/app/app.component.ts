@@ -21,3 +21,4 @@ image_url!:string;
 // (2)MainContentComponment
 // (3)SideBarComponment
 // (4) Ainsi que tous les autres "components décrits" dans le schéma inclus dans le porjet
+// Pour (4) Utiliser le  ng generate component NomComponent
