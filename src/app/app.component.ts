@@ -20,3 +20,4 @@ image_url!:string;
 // (1)HeaderComponment
 // (2)MainContentComponment
 // (3)SideBarComponment
+// (4) Ainsi que tous les autres "components décrits" dans le schéma inclus dans le porjet
