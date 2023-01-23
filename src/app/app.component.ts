@@ -15,4 +15,8 @@ resume!: string;
 image_url!:string;
 }
 
-
+//ToDo
+//Inclure :
+// (1)HeaderComponment
+// (2)MainContentComponment
+// (3)SideBarComponment

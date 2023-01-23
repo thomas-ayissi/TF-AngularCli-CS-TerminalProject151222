@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-fiche-article',
-  templateUrl: './fiche-article.component.html',
-  styleUrls: ['./fiche-article.component.scss']
+  selector: 'app-ficheArticle',
+  templateUrl: './ficheArticle.component.html',
+  styleUrls: ['./ficheArticle.component.scss']
 })
 export class FicheArticleComponent {
    category!: string;
