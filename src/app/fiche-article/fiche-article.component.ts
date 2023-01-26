@@ -21,7 +21,7 @@ export class FicheArticleComponent implements OnInit{
     this.publication_date= new Date();
     this.author= 'Bruce Wayne';
     this.resume= 'Amazing book with an interessting story';
-    this.image_url= "./assets/imagesFolder/Livre_barack_obama_une_terre_promise.jpeg";
+    this.image_url= "https://www.dropbox.com/s/aanwmasobwwf9lq/livre_barack_obama_une_terre_promise.jpeg?dl=0";
 
   }
 
