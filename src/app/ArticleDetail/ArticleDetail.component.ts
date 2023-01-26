@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-ArticleDetail',
   templateUrl: './ArticleDetail.component.html',
   styleUrls: ['./ArticleDetail.component.scss']
 })
-export class ArticleDetailComponent {
+export class ArticleDetailComponent implements OnInit {
    category!: string;
    title!: string;
    isbn_number!: string;

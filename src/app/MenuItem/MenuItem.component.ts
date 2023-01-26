@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-MenuItem',
   templateUrl: './MenuItem.component.html',
   styleUrls: ['./MenuItem.component.scss']
 })
-export class MenuItemComponent {
+export class MenuItemComponent implements OnInit{
   category!: string;
   name!: string;
   class!: string;
