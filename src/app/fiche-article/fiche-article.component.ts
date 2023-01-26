@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-fiche-article',
   templateUrl: './fiche-article.component.html',
   styleUrls: ['./fiche-article.component.scss']
 })
-export class FicheArticleComponent {
+export class FicheArticleComponent implements OnInit{
    category!: string;
    title!: string;
    isbn_number!: string;
