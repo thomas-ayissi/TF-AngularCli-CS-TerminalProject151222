@@ -1,6 +1,78 @@
 URL Gist Notes du projet : https://gist.github.com/thomas-ayissi/4e36825011dc3bd6d4066ab6c9378d48
                                                                                      
 V1 - Découpage des modules
+
+
+
+###TF - Lun 30 Jan 2023 - Laboratoire Développement - Application Angular
+
+####(1) Evolution du schéma - représentation de l’application
+
+Présentation du projet  : mardi 7 jan 2023
+
+URL Doc Officielle Angular :  https://angular.fr/modules/feature-modules.html
+
+Structure d'un projet simple en Angular
+<project root>
+app
+navbar
+navbar.module.ts
+navbar.component.ts
+app.component.ts
+app.module.ts
+main.ts
+index.html
+
+
+Structure de mon projet (Appli Pour librairie)
+<project root>
+app
+navbar
+sousNavbar
+sousNavbar.Module.ts
+sousNavbar.component.ts
+
+          navbar.module.ts
+          navbar.component.ts
+
+        main
+               article
+                    imageArticle 
+                        imageArticle.module.ts
+                        imageArticle.component.ts 
+
+                    descriptionArticle 
+                        descriptionArticle.module.ts
+                        descriptionArticle.component.ts 
+
+               article.module.ts
+               article.component.ts 
+                                           
+          main.module.ts
+          main.component.ts  
+                
+          footer
+                   navbar
+                         sousNavbar
+                                  sousNavbar.Module.ts
+                                  sousNavbar.component.ts 
+                   navbar.module.ts
+                   navbar.component.ts
+
+           footer.module.ts
+           footer.component.ts  
+
+app.component.ts
+app.module.ts
+
+main.ts
+index.html
+
+
+
+
+
+
 TF - Laboratoire - Développement Application en angular - Lun 23 Jan 202 »
 
 Nom Du Projet :  /Users/thomasayissi/Documents/TF-AngularCli-CS-TerminalProject151222-V22122022/TF-Angular-Store-Management-Project-0414122
