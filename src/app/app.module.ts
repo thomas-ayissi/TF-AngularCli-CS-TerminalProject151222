@@ -9,8 +9,8 @@ import { BoutonMenuComponent } from './bouton-menu/bouton-menu.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FicheArticleComponent,
-    BoutonMenuComponent
+
+
   ],
   imports: [
     BrowserModule,
